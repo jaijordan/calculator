@@ -25,6 +25,11 @@ body {
     grid-column: 2/5;
 }
 
+#minus {
+    font-size: 15px;
+    font-weight: bold;
+}
+
 button {
     background-color: #444444;
     border-radius:5px;
@@ -43,6 +48,7 @@ button {
     color: white;
     padding-right: 30px;
     padding-left: 30px;
+    overflow: hidden;
 }
 
 button:hover {
